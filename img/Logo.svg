@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="656.222" height="170.088" viewBox="0 0 656.222 170.088">
+  <g id="Group_5" data-name="Group 5" transform="translate(-477 -86.879)">
+    <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(477 108.846)" fill="#1b98e0" stroke="#707070" stroke-width="1">
+      <rect width="656.222" height="126.154" rx="63.077" stroke="none"/>
+      <rect x="0.5" y="0.5" width="655.222" height="125.154" rx="62.577" fill="none"/>
+    </g>
+    <text id="SnowProblem" transform="translate(809.111 196.372)" fill="#fff" font-size="80" font-family="AdobeHandwriting-Tiffany, Adobe Handwriting"><tspan x="-266.205" y="0">Snow</tspan><tspan y="0" fill="#2a547b" font-family="Arial-Black, Arial Black" font-weight="800">Problem</tspan></text>
+    <text id="SnowProblem-2" data-name="SnowProblem" transform="matrix(0.996, 0.087, -0.087, 0.996, 804.627, 202.815)" fill="#fff" font-size="80" font-family="AdobeHandwriting-Tiffany, Adobe Handwriting" opacity="0.301"><tspan x="-266.205" y="0">Snow</tspan><tspan y="0" fill="#2a547b" font-family="Arial-Black, Arial Black" font-weight="800">Problem</tspan></text>
+    <text id="SnowProblem-3" data-name="SnowProblem" transform="matrix(0.996, -0.087, 0.087, 0.996, 805.596, 197.815)" fill="#fff" font-size="80" font-family="AdobeHandwriting-Tiffany, Adobe Handwriting" opacity="0.301"><tspan x="-266.205" y="0">Snow</tspan><tspan y="0" fill="#2a547b" font-family="Arial-Black, Arial Black" font-weight="800">Problem</tspan></text>
+  </g>
+</svg>

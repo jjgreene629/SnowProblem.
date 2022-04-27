@@ -1,0 +1,209 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #D0D8DD;
+	font-family: 'Righteous', cursive;
+	color: #ffffff;
+}
+
+h1 {
+	font-weight: 400;
+	font-family: 'Righteous', cursive;
+}
+
+header {
+	padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+	border-bottom: 1rem solid #1B98E0;
+	text-align: center;
+	background-color: #2B4452;
+}
+
+main {
+	padding:  2rem;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #D0D8DD;
+	max-width: 75%;
+}
+
+.hero {
+	position: relative;
+	background: url(../img/sp.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	height: 60vh;
+}
+
+.hero-text {
+	position: absolute;
+	bottom: 2.25rem;
+	right: 1.5rem;
+	text-align: right;
+	max-width: 20rem;
+	color: #2B4452;
+}
+
+@media screen and (min-width: 40em){
+	.hero-text {
+		max-width: 30rem;
+	}
+}
+.main-content,
+.side-content {
+	border: none;
+	padding: 1.5rem;
+}
+
+.main-content img,
+.side-content img {
+	width: 100%;
+	padding-bottom: 1rem;
+	border: none;
+	align-items: center;
+} 
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+header li {
+	display: inline-block;
+}
+header li a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 0 10px;
+}
+
+/* 
+- 1rem=16px
+*/
+
+img { 
+	border: none;
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+ }
+
+img.Ski1 {
+	border: none;
+	border-radius: none;
+}
+
+img.logo {
+	max-width: 30rem;
+	border: none;
+}
+
+img.Goggles {
+	border: none;
+}
+
+p {
+ 	margin-bottom: 1rem;
+ }
+
+header li a:hover {
+	color: #2B4452;
+}
+
+header.logo {
+	border: none;
+	margin-bottom: 1rem;
+}
+
+nav a,
+footer a,
+.btn {
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #1B98E0;
+	padding: .5rem 1rem .5rem 1rem;
+	border-radius: 1.5rem;
+
+}
+
+a .btn:hover {
+	color: #2B4452;
+	background-color: #B5E1FA;
+}
+
+footer {
+	background-color: #2B4452;
+	color: #ffffff;
+	padding: 1.5rem;
+	text-align: center;
+}
+
+footer p {
+ margin-top: 0;
+}
+
+a:hover {
+	color: #2B4452;
+	background-color: #B5E1FA;
+}
+
+img.skiing {
+	border: none;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+footer li {
+	display: inline-block;
+}
+footer li a {
+	margin-right: .5rem;
+	text-decoration: none;
+	color: #ffffff;
+}
+footer li a:hover {
+	color: #2B4452;
+}
+
+img.ski1 {
+	border: none;
+}
+
+@media screen and (min-width: 40em){
+	.servicepage .container,
+	.detailpage {
+		display: flex;
+		justify-content: space-between;
+		max-width: 75rem;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	.servicepage .container .service {
+		width: 32%;
+	}
+	.detailpage .main-content {
+		width: 60%;
+	}
+	.detailpage .side-content {
+		width: 35%;
+	}
+}
+
+
+
